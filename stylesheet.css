@@ -1,5 +1,4 @@
 
-
 @font-face {
     font-family: 'ustroke-regular';
     src: url('https://sustainabilitysucks.com/css/fonts/ustroke-regular.woff2') format('woff2'),
@@ -19,8 +18,7 @@ h1{
 html, body, .container {
     position: absolute;
     top: 50%;
-    left: 50%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
