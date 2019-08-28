@@ -10,11 +10,18 @@
 
 }
 
+h1{
+    font-family: ustroke-regular;
+    font-weight: normal;
+	font-style: normal;
+	font-size: 50px;
+}
 
 html, body, .container {
     position: absolute;
     top: 50%;
-    -moz-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
