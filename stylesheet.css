@@ -16,8 +16,7 @@ h1{
 	font-size: 30px;
 }
 
-
-.container {
+html, body, .container {
     position: absolute;
     top: 50%;
     left: 50%;
