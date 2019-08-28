@@ -10,7 +10,10 @@
 
 }
 h1{
-    font-family: 'ustroke-regular';
+    font-family: ustroke-regular;
     font-weight: normal;
-	font-style: normal
+	font-style: normal;
+	font-size: 30px;
+	color: #000000;
+	text-align: center;
 }
