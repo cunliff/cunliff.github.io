@@ -3,7 +3,8 @@
 @font-face {
     font-family: 'ustroke-regular';
     src: url('https://sustainabilitysucks.com/css/fonts/ustroke-regular.woff2') format('woff2'),
-         url('https://sustainabilitysucks.com/css/fonts/ustroke-regular.woff') format('woff');
+         url('https://sustainabilitysucks.com/css/fonts/ustroke-regular.woff') format('woff'),
+		 url('https://sustainabilitysucks.com/css/fonts/ustroke-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
