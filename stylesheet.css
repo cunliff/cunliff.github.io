@@ -26,15 +26,6 @@ html, body, .container {
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'gloria-hallelujah-regular';
-    src: url('https://sustainabilitysucks.com/css/fonts/gloria-hallelujah-regular.woff2') format('woff2'),
-         url('https://sustainabilitysucks.com/css/fonts/gloria-hallelujah-regular.woff') format('woff'),
-		 url('https://sustainabilitysucks.com/css/fonts/gloria-hallelujah-regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 h1{
     font-family: ustroke-regular;
     font-weight: normal;
