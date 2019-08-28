@@ -27,7 +27,7 @@ html, body, .container {
 }
 
 @font-face {
-    font-family: 'sk-primo-regular';
+    font-family: 'gloria-hallelujah-regular';
     src: url('https://sustainabilitysucks.com/css/fonts/gloria-hallelujah-regular.woff2') format('woff2'),
          url('https://sustainabilitysucks.com/css/fonts/gloria-hallelujah-regular.woff') format('woff'),
 		 url('https://sustainabilitysucks.com/css/fonts/gloria-hallelujah-regular.ttf') format('truetype');
