@@ -9,12 +9,7 @@
     font-style: normal;
 
 }
-p{
-    font-family: ustroke-regular;
-    font-weight: normal;
-	font-style: normal;
-	font-size: 60px;
-}
+
 
 html, body, .container {
     position: absolute;
