@@ -7,7 +7,15 @@
 		 url('https://sustainabilitysucks.com/css/fonts/ustroke-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+}
 
+@font-face {
+    font-family: 'sk-primo-regular';
+    src: url('https://sustainabilitysucks.com/css/fonts/sk-primo-regular.woff2') format('woff2'),
+         url('https://sustainabilitysucks.com/css/fonts/sk-primo-regular.woff') format('woff'),
+		 url('https://sustainabilitysucks.com/css/fonts/sk-primo-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 h1{
