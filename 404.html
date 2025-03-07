@@ -1,41 +1,55 @@
 <!DOCTYPE html>
-
-<!-- ¯\_(ツ)_/¯ -->
-
-<html>
-	<title>404 SUCKS</title>
-	<head>
-  		  <link rel="stylesheet" href="stylesheet.css">
-		  <style>
-		  body {
-		      -webkit-animation: colorchange 2s infinite; 
-		      animation: colorchange 2s infinite;
-		  }
-		  @-webkit-keyframes colorchange {
-	       	0%  {background: #01E918;}
-	      	50%  {background: #01E918;}
-		  	51%  {background: #ffffff;}
-	      	100% {background: #ffffff;}
-		  }
-		  @keyframes colorchange {
-	       	0%  {background: #01E918;}
-	      	50%  {background: #01E918;}
-		  	51%  {background: #ffffff;}
-	      	100% {background: #ffffff;}
-		  }   
-		  </style>
-	</head>
-	
-	
-	<div class="container">
-			<body>
-				<h1 style= 'font-size: 75px; color: #ffffff;text-align: center;'>
-					404
-				</h1>
-				<h2 style= 'color: #01E918;text-align: center;'>
-					PAGE NOT FOUND
-				</h1>		
-			</body>
-	</div>
-	
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        .error-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 20px;
+            background-color: #fafafa;
+        }
+        
+        .error-code {
+            font-size: 6rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        
+        .error-message {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .home-link {
+            color: #000;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 2px solid #000;
+            transition: all 0.3s ease;
+        }
+        
+        .home-link:hover {
+            background-color: #000;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-code">404</div>
+        <div class="error-message">Page not found</div>
+        <a href="/" class="home-link">Return Home</a>
+    </div>
+</body>
 </html>
